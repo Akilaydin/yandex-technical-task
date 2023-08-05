@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.madsbangh.easybuttons": "https://github.com/madsbangh/EasyButtons.git#upm",
     "com.origames.com.origames.extensions": "https://github.com/Akilaydin/OriGamesExtensions.git",
     "com.unity.cinemachine": "2.8.9",

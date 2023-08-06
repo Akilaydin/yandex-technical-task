@@ -13,12 +13,12 @@ namespace Views
 
 		private void OnTriggerEnter2D(Collider2D other)
 		{
-			TriggerEntered!.Invoke(other);	
+			//TriggerEntered!.Invoke(other);
 		}
 
 		private void OnCollisionEnter2D(Collision2D other)
 		{
-			Collided!.Invoke(other);
+			//Collided!.Invoke(other);
 		}
 	}
 }

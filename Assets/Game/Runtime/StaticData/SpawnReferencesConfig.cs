@@ -8,7 +8,6 @@ namespace StaticData
 	public class SpawnReferencesConfig : ScriptableObject
 	{
 		[field: SerializeField] public CoinView CoinView { get; private set; }
-		[field: SerializeField] public PlayerView PlayerView { get; private set; }
 		[field: SerializeField] public ObstacleView ObstacleView { get; private set; }
 	}
 }

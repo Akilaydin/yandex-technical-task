@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7af4eb64b36e0e548a26b7e3345604c0, type: 3}
+  m_Name: SpawnReferencesConfig
+  m_EditorClassIdentifier: 
+  <CoinView>k__BackingField: {fileID: 7053417890066237271, guid: d025171b6fb178b49b7d0d97f87e385f, type: 3}
+  <PlayerView>k__BackingField: {fileID: 5455917068444867779, guid: ac21b57b65a82764cbb6b096d00d525f, type: 3}
+  <ObstacleView>k__BackingField: {fileID: 2034525503063225214, guid: 78c34fbedd87db1409a981f1832af351, type: 3}

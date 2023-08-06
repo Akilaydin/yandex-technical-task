@@ -4,6 +4,8 @@ using Views;
 
 using Models;
 
+using Services;
+
 using StaticData;
 
 using UnityEngine;
@@ -17,14 +19,19 @@ namespace Core
 	{
 		[SerializeField] private SpawnReferencesConfig _spawnReferencesConfig;
 		[SerializeField] private ScoreView _scoreView;
+		[SerializeField] private PlayerView _playerView;
 		
 		protected override void Configure(IContainerBuilder builder)
 		{
 			builder.Register<ScoreModel>(Lifetime.Scoped).AsSelf();
 			
 			builder.RegisterInstance(_spawnReferencesConfig);
+			builder.RegisterInstance(_scoreView);
+			builder.RegisterInstance(_playerView);
 			
 			builder.Register<PlayerController>(Lifetime.Scoped).AsImplementedInterfaces();
+			
+			builder.Register<DesktopInputService>(Lifetime.Scoped).AsImplementedInterfaces();
 		}
 	}
 }

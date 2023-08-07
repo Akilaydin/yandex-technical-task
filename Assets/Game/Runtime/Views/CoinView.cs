@@ -2,8 +2,5 @@
 
 namespace Views
 {
-	public class CoinView : MonoBehaviour
-	{
-		
-	}
+	public class CoinView : MonoBehaviour { }
 }

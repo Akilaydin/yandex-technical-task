@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Views
+namespace Components
 {
 	public class HorizontalFollowerComponent : MonoBehaviour
 	{

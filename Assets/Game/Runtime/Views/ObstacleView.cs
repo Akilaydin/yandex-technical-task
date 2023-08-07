@@ -2,8 +2,5 @@
 
 namespace Views
 {
-	public class ObstacleView : MonoBehaviour
-	{
-		
-	}
+	public class ObstacleView : MonoBehaviour { }
 }

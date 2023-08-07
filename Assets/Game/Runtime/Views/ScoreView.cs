@@ -1,9 +1,8 @@
 ﻿using System;
 
-using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.Linq;
 
-using Models;
+using Models.Score;
 
 using TMPro;
 
@@ -22,9 +21,9 @@ namespace Views
 		private IDisposable _subscription;
 		
 		[Inject]
-		private void Construct(ScoreModel model)
+		private void Construct(IScoreProvider scoreProvider)
 		{
-			model.CurrentScore.Subscribe(UpdateScore);
+			_subscription = scoreProvider.CurrentScore.Subscribe(UpdateScore);
 		}
 
 		private void UpdateScore(int score)
